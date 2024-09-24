@@ -7,6 +7,9 @@
     --col2: #bd9882;
 }
 
+/* END OF MAIN COLORS EDITION */ 
+
+
 :root {
     --system-accent-color: var(--col1);
     --system-accent-color-contrast: #ffffffff;
