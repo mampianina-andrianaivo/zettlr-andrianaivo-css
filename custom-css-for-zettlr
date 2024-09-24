@@ -1,0 +1,326 @@
+/* 2 MAIN COLORS : col1 better darker and col2 kind of pastel or something clear*/ 
+
+:root {
+    --col1: #403240;
+    --col2: #bd9882;
+}
+
+:root {
+    --system-accent-color: var(--col1);
+    --system-accent-color-contrast: #ffffffff;
+}
+
+body .main-editor-wrapper .cm-editor {
+font-size: 20px;
+}
+
+.ͼy .citeproc-citation {
+    background-color: #77f571;
+  font-weight: bold;
+    color: #d02325;
+}
+
+.cm-editor .size-header-1 {
+  font-size: 1.4em;
+  color: #eb346b;
+  text-align: left;
+}
+
+.cm-editor .size-header-2 {
+  font-size: 1.3em;
+  margin-left: 30px;
+  color:cyan;
+  text-align: left;
+}
+
+.cm-editor .size-header-3 {
+  font-size: 1.2em;
+  margin-left: 60px;
+  color:#a44ad9;
+  text-align: left;
+}
+
+.cm-editor .size-header-4 {
+  font-size: 1.1em;
+  color:white;
+  margin-left: 90px;
+  text-align: left;
+}
+
+.cm-editor . {
+  font-size: 1.1em;
+  color:#a44ad9;
+  margin-left: 90px;
+  text-align: left;
+}
+
+.ͼy .cm-code-mark:not(.cm-emphasis, .ͼy .cm-strong, .ͼy .cm-list), .ͼy .cm-zkn-tag {
+    color: #eee111;
+}
+
+
+.main-editor-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: 0.2s background-color ease;
+    position: relative;
+    background-color: var(--col1);
+    text-align: justify;
+}
+
+body div.tab-container {
+    width: 100%;
+    height: 35px;
+    body.win32 #file-manager .file-manager-filter .file-manager-filter-input {
+    height: 30px;
+}
+    border-bottom: 1px solid var(--col2);
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+body.win32 div.tab-container div[role="tab"]:not(:last-child) {
+    border-right: 1px;
+
+}
+
+.ͼu .citeproc-citation, .ͼu .code-block-line-background, .ͼu .inline-code-background {
+    background-color: var(--col2)  ;
+  color: black;
+}
+
+.ͼu .cm-quote {
+  font-family: Inconsolata, monospace;
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--col2);
+}
+
+.ͼu .cm-url, .ͼu .cm-link, .ͼu .cm-code-mark, .ͼu .cm-zkn-tag, .ͼu .cm-zkn-link {
+    color: red;
+    font-weight: bold;
+}
+
+.ͼu .cm-monospace, .ͼu .cm-hr, .ͼu .code-block-line {
+    font-family: Inconsolata, monospace;
+    color: black;
+    font-size: 16px;
+      text-align: left;
+}
+
+
+body.win32 #file-manager .file-manager-filter .file-manager-filter-input {
+    height: 35px;
+  background-color: var(--col2) ;
+  color: black;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+    color: black;
+}
+
+body #file-manager {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  background-color: var(--col2) ;
+}
+
+body #sidebar {
+    background-color: var(--col2);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* MAIN TEXT*/
+.ͼu .cm-scroller {
+    color: PowderBlue;
+    font-family: Courier;
+
+}
+
+body.win32 div.tab-container div[role="tab"].active {
+    background-color: var(--col2);
+    font-size:18px;
+
+}
+
+.ͼu.cm-focused .cm-scroller .cm-layer.cm-selectionLayer .cm-selectionBackground, .ͼu ::selection {
+    background: rgb(250 243 222 / 80%);
+}
+
+.cm-scroller .cm-layer.cm-selectionLayer .cm-selectionBackground, .ͼu ::selection {
+    background: rgb(250 243 222 / 70%);
+   color: var(--col1);
+}
+
+
+body.win32 div#toolbar {
+    height: 40px;
+    font-size: 14px;
+    background-color: var(--col2);
+    color: #646464;
+}
+
+body.win32 div#toolbar div.three-way-toggle.active {
+    background-color: transparent;
+}
+
+body.win32 div#toolbar div.three-way-toggle button.active {
+    background-color: transparent;
+}
+
+.ͼu .cm-url, .ͼu .cm-link, .ͼu .cm-code-mark, .ͼu .cm-zkn-tag, .ͼu .cm-zkn-link {
+    color: magenta;
+    font-weight: normal;
+  font-family: Inconsolata;
+}
+
+body div.tab-container {
+
+    background-color: var(--col2);
+    border-bottom: 1px solid var(--col2);
+}
+
+body div.split-view div.view.view-border {
+    border-left: 1px solid var(--col2);
+    margin-left: -6px;
+}
+
+body.win32 #file-tree #directories-dirs-header, body.win32 #file-tree #directories-files-header {
+    border-bottom: 1px solid var(--col2);
+    font-size: 11px;
+    padding: 5px 0px 5px 10px;
+    margin: 0px 0px 5px 0px;
+}
+
+body:not(.darwin) ::-webkit-scrollbar-thumb {
+    background-color: var(--col1);
+}
+
+body:not(.darwin) ::-webkit-scrollbar {
+    background-color: var(--col2);
+}
+
+body.win32 .system-tablist .system-tab.active {
+    background-color: var(--col2);
+}
+
+body.win32 .system-tablist .system-tab {
+    background-color: var(--col2);
+}
+
+body.win32 input, body.win32 select, body.win32 textarea, body.win32 button {
+    background-color: white;
+    border: 2px solid var(--col2);
+    border-radius: 0px;
+    min-width: 50px;
+    padding: 8px 8px;
+}
+
+/*CodeMirror scrollbar annotations*/ 
+.sb-annotation { background-color:var(--bg-annotation); }
+::-webkit-scrollbar { width: 15px; }
+::-webkit-scrollbar-thumb { border-radius: 0px; }
+::-webkit-scrollbar-thumb:window-inactive { background-color: #80668c; }
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 0px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+/* Up arrow*/
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    height: 0px;
+}
+
+/* Down arrow*/
+::-webkit-scrollbar-button:single-button:vertical:increment {
+    height: 0px;
+}
+
+/* L arrow*/
+::-webkit-scrollbar-button:single-button:horizontal:decrement {
+    width: 0px;
+}
+
+/* R arrow*/
+::-webkit-scrollbar-button:single-button:horizontal:increment {
+    width: 0px;
+}
+
+body div#global-search-pane {
+    padding: 10px;
+    overflow: auto;
+    height: 100%;
+  background-color:var(--col2);
+}
+
+body.win32 div.tab-container div[role="tab"].active {
+    color: black;
+}
+
+.ͼ1 .footnote, .ͼ1 .footnote-ref-label {
+    vertical-align: super;
+    font-size: 80%;
+   color:magenta;
+}
+
+.zoom {
+  padding: 50px;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+body.win32 div#toolbar button:hover {
+    background-color: transparent;
+    color: white;
+  transform: scale(1.5);
+}
+
+body.win32 div#toolbar div.three-way-toggle:hover {
+  border-color: transparent;
+  background-color: transparent;
+  transform: scale(1);
+}
+
+body div#global-search-pane hr {
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204, 204, 204);
+}
+
+body.win32 {
+    font-size: 15px;
+}
+
+body div.tab-container div[role="tab"]:hover {
+  background-color: transparent;
+  transform: scale(0.9);
+}
